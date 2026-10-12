@@ -1,0 +1,77 @@
+# Dart and Flutter
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+
+# Flutter generated files
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+**/ephemeral/
+Flutter/App.framework
+Flutter/Flutter.framework
+Flutter/Flutter.podspec
+Flutter/app.flx
+Flutter/app.zip
+Flutter/flutter_assets/
+Flutter/Generated.xcconfig
+Flutter/ephemeral/
+Flutter/flutter_export_environment.sh
+ServiceDefinitions.json
+Runner/GeneratedPluginRegistrant.*
+
+# iOS and Xcode
+**/dgph
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/*sync/
+.sconsign.dblite
+.tags*
+**/.vagrant/
+**/DerivedData/
+Icon?
+**/Pods/
+**/.symlinks/
+profile
+xcuserdata
+**/.generated/
+
+# Exceptions to the iOS rules
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and debugging
+*.log
+*.stackdump
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Keep Flutter project configuration and source files
+# pubspec.yaml, pubspec.lock, README.md, lib/, android/,
+# ios/, web/, windows/, linux/, and macos/ remain trackable.
