@@ -27,11 +27,11 @@ class CustomListViewExample extends StatelessWidget {
   Widget build(BuildContext context) {
     // Sample dataset based on PDF slides
     final List<Item> items = [
-      Item(name: 'Apple', price: '₹180.00', imagePath: 'C:/Users/students/Documents/Flutter/apple.jpg'),
-      Item(name: 'Orange', price: '₹100.00', imagePath: 'C:/Users/students/Documents/Flutter/orange.jpg'),
-      Item(name: 'Mango', price: '₹70.00', imagePath: 'C:/Users/students/Documents/Flutter/mango.jpg'),
-      Item(name: 'Pomegranate', price: '₹250.00', imagePath: 'C:/Users/students/Documents/Flutter/pomegranate.jpg'),
-      Item(name: 'Dragon Fruit', price: '₹210.00', imagePath: 'C:/Users/students/Documents/Flutter/dragon.jpg'),
+      Item(name: 'Apple', price: '₹180.00', imagePath: 'assets/orange.jpg'),
+      Item(name: 'Orange', price: '₹100.00', imagePath: 'C:\\Users\\students\\Documents\\Flutter\\orange.jpg'),
+      Item(name: 'Mango', price: '₹70.00', imagePath: 'C:\\Users\\students\\Documents\\Flutter\\mango.jpg'),
+      Item(name: 'Pomegranate', price: '₹250.00', imagePath: 'C:\\Users\\students\\Documents\\Flutter\\pomegranate.jpg'),
+      Item(name: 'Dragon Fruit', price: '₹210.00', imagePath: 'C:\\Users\\students\\Documents\\Flutter\\dragon.jpg'),
     ];
 
     return Scaffold(
